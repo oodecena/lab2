@@ -1,0 +1,39 @@
+
+center {
+  text-align: center;
+  color: rgb(27, 11, 63);
+ }
+
+p {
+  text-align: center;
+  color: rgb(8, 1, 22);
+ }
+
+ol {
+  color: rgb(38, 30, 60);
+}
+
+body {
+  background-image: url("Images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.profile {
+    text-align: center;
+    margin: 5px;
+    position: relative; 
+ }
+
+.header {
+    background-color: #090f7d;
+    text-align: center;
+    padding: 20px;
+  }
+
+.column {
+    float: left;
+    width: 75%;
+    padding: 15px;
+  }
+  
