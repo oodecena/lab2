@@ -1,34 +1,89 @@
 
+/* Navigation Bar */
+
+.navbar {
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+li.right {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li b {
+  display: block;
+  color: white;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+}
+
 center {
   text-align: center;
   color: rgb(27, 11, 63);
  }
 
-p {
-  text-align: center;
-  color: rgb(8, 1, 22);
- }
-
-ol {
+.ol {
   color: rgb(38, 30, 60);
+  text-align: center;
+  display: grid;
+  margin: 0 auto;
+  place-items: center;
 }
 
 body {
-  background-image: url("Images/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(142, 126, 148);
 
-.profile {
-    text-align: center;
-    margin: 5px;
-    position: relative; 
- }
+}
+
+/*.profile {
+  float: left;
+  margin-right: 20px; 
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}*/
+
+p {
+  margin-bottom: 20px; 
+  text-align: center;
+  color: rgb(8, 1, 22);
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
 
 .header {
-    background-color: #090f7d;
+    background-color: #282850;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
   }
 
 .column {
@@ -36,4 +91,21 @@ body {
     width: 75%;
     padding: 15px;
   }
-  
+
+.description {
+  display: grid;
+  place-items: center;
+  font-size: medium;
+  max-height: min-content;
+
+}
+
+.profilecontainer {
+  display: flex;
+  align-items: center;
+  border-radius: 250px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 500px;
+  height: 300px;  
+}
